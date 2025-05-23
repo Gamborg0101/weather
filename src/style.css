@@ -1,3 +1,52 @@
 * {
+  margin: 0px;
+  padding: 0px;
   background-color: bisque;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+#weather-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+#weather-box {
+  display: flex;
+
+  justify-content: space-around;
+  flex-direction: column;
+  border: 2px solid green;
+  padding: 15px;
+  width: 500px;
+  height: 300px;
+}
+
+#weather-box > div {
+  font-size: 1.2rem;
+}
+
+#searchbar-container {
+  display: flex;
+  
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  flex: 1;
+}
+#searchbar-container > label {
+  font-size: 1.5rem;
+}
+
+#footer {
+  background-color: lightblue;
+  padding: 1rem;
+  height: auto;
 }
